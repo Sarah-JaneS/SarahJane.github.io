@@ -1,4 +1,4 @@
-
+/** IMPORTED FONTS FROM GOOGLE FONTS **/
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 
@@ -6,22 +6,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
-
+/** SMOOTH SCROLL WHEN CLICK NAV **/
 html {
   scroll-behavior: smooth;
 }
 
 
-
-
+/** BODY IMG + CONTAINER **/
 body {
     background-image: url('img/background.jpg');
     margin: 0;
     max-width:100%;
-    
+}
+  
+#container{
+    display:block;
+    width: 1300px;
+    max-width: 100%;
+    margin:auto;
     
 }
+    
 
+/**HEADERS**/
 .header{
     background-color: #F4AFA6;
     color: white;
@@ -42,7 +49,31 @@ body {
     width: 100%;
 }
 
+#header1{
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    background-color: #F4AFA6;
+    font-size:2.6rem;
+    text-decoration: underline bold;
+    grid-column: 1/4;
+}
 
+
+
+
+h1 {
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    background-color: #F4AFA6;
+    font-size:2.6rem;
+    text-decoration: underline bold;
+}
+
+
+
+/**NAVIGATION BAR **/
 .nav{
     display: grid;
     grid-template-columns: 200px auto;
@@ -54,25 +85,24 @@ body {
     max-width: 100%;
 }
 
-#container{
-    display:block;
-    width: 1300px;
-    max-width: 100%;
-    margin:auto;
-    
+.nav a:hover{
+    text-decoration:underline;
 }
+
 
 
 
 .logo {
     margin-top: 35px;
+    margin-left: 10px;
     font-size: 1.4rem;
 }
 
 .links {
     margin-top: 40px;
-    font-size: 0.75rem;
+    font-size: 1.0rem;
     text-align: right;
+    margin-right: 10px;
     color: #4B4E61;
 }
 
@@ -83,8 +113,8 @@ body {
     text-decoration: none;
 }
 
-.salmon {
-    color: #4B4E61;
+.star {
+    color: white;
 }
 
 
@@ -103,17 +133,6 @@ body {
 
 
 
-
-h1 {
-    text-align:center;
-    font-family: 'Amatic SC', cursive;
-    color: white;
-    background-color: #F4AFA6;
-    font-size:2.6rem;
-    text-decoration: underline bold;
-    grid-column: 
-}
-
 /**PORTFOLIO**/
 #portfolio{
     max-width:100%;
@@ -125,7 +144,9 @@ h1 {
   
 }
 
+/** MAIN BODY **/
 
+/**PORTFOLIO**/
 #photography{
     display:grid;
     max-width: 100%;
@@ -181,20 +202,25 @@ h1 {
 }
 
 
-
-
 #profile{
     display:grid;
     max-width: 100%;
     background-color: #F4AFA6;
     grid-column:1/2;
     height: auto;
+}
     
+#text{
+    display:grid;
+    max-width: 100%;
+    background-color: #F4AFA6;
+    grid-column:2/3;
+    height: auto;
+    padding: 20px;
+
 }
 
-
-
-
+/** CONTACT FORM **/
 #contact {
     max-width: auto;
     margin-left: auto;
@@ -219,43 +245,7 @@ h1 {
     margin-top: 50px;
 }
 
-
-#social{
-    max-width:100%;
-    margin-left:auto;
-    margin-right:auto;
-    display: grid;
-    height: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    
-}
-
-logo{
-    display:grid;
-    max-width: 100%;
-    grid-column:1/2;
-    height: auto;
-}
-
-
-
-
-
-    
-
-
-#header1{
-    text-align:center;
-    font-family: 'Amatic SC', cursive;
-    color: white;
-    background-color: #F4AFA6;
-    font-size:2.6rem;
-    text-decoration: underline bold;
-    grid-column: 1/4;
-}
-
-
+/**FOUND ONLINE **/
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
@@ -294,14 +284,35 @@ input[type=submit]:hover {
 }
 
 
-footer{
-    text-align: center;
+/**SOCIAL MEDIA PICTURES **/
+#social{
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+}
+
+logo{
+    display:grid;
+    max-width: 100%;
+    grid-column:1/2;
+    height: auto;
 }
 
 
+/**FOOTNOTE AT BOTTOM **/
+footer{
+    text-align: center;
+    color: black;
+    
+}
 
 
-/**PHOTOGRAPHY.HTML**/
+/**PHOTOGRAPHY.HTML AND PAINTING.HTML**/
 
 
 #gallery{
@@ -312,6 +323,13 @@ footer{
     
 }
 
+
+
+footer{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    ç
+}
 
 
 

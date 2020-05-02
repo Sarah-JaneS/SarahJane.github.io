@@ -13,88 +13,84 @@
     <div class="header">
         <div class="nav">
             <div class="logo">
-            Sarah-Jane Seddon<span class="salmon">*</span>
+                Sarah-Jane Seddon<span class="star">*</span>
             </div>
-            
-           <script>
- 
-            </script> 
             <div class="links">
-                <a href="#banner">HOME</a> &bull;
-                <a href="#about">ABOUT</a> &bull;
-                <a href="#portfolio">PORTFOLIOS</a>  &bull;
-                <a href="#contact">CONTACT</a> &bull;
-                <a href="#social">SOCIAL MEDIA</a> &bull;
+                <a href="#title">HOME</a> &bull;
+                <a href="#title2">ABOUT</a> &bull;
+                <a href="#title1">PORTFOLIOS</a>  &bull;
+                <a href="#title3">CONTACT</a> &bull;
+                <a href="#title4">SOCIAL MEDIA</a> &bull;
             </div>
         </div>
     </div>
     
-       
-            <!--Main image when first opened -->
-            <div class= "banner">
-                <img src="img/banner3.jpg">
-            </div>
-            
-        <div id= "container">
-            <div id="title">
-                <h1>Portfolio</h1>
-            
-            </div>
-            <div id= "portfolio">
-                
-                <div id= "photography">
-                    <a href = "photography.html"><img src="img/photographybanner2.jpg" alt= "photography" class="center"> </a>
-                </div>
-                <div id="painting">
-                    <a href ="painting.html"><img src="img/paintingbanner4.jpg" alt="Painting" class="center"/></a>
-                </div>
-            </div>
-            <div id=title>
-                <h1>About</h1>
-            </div>
-            <div id="about">
-                <div id="profile">
-                    <img src="img/profile.jpg" alt="Profile" class="center2">
-                </div>
-                <div id="text">
-                    <p>My name is Sarah-Jane Seddon and I am studying at Massey University Wellington. I am studying Design and planning to major in Visual Communications Design. I have always have had a passion for creativity and art. This portfolio to show some of my best works from lens and my level 3 NCEA art board. Throughout my time at college I have taken digital technologies and I love Website design and using HTML, PHP, CSS and script. I am 17 years old and I live in Wellington New Zealand. My other passion instead of art is dance, I have been dancing since the age of 4. I enjoy contemporary, ballet, jazz and hiphop. My favourite food would most defiently be Pizza because you can choose what toppings to have on the Pizza. Personally I prefer Peperoni from Pizza Hutt but if I am going gourmey I would choose a Pandamonium Pizza from Hells Pizza. I also have a strong opinion that Pineapple does belong on Pizza. At home I also own a Dog called Roxy. Roxy is a Labradoodle and she is currently 10 years old. I also have two fish one that doesn't have a name and the other one is called Ginger Ninja. I love all animals but I am defiently a Dog person over a cat person. My favourite colour is pastel pink or mint green. If you couldnt tell from the colour of this website. In the future, I want to use what I am studying at Massey to do Web design and online design. </p>
-                </div>
-            
-            </div>
-            <div id="title">
-                <h1>Contact</h1>
-            </div>
-            <div id="contact">
-                <div id="form">
-                  <form action="action_page.php">
-
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <div id="title"></div>
+        <div class= "banner">
+            <img src="img/banner3.jpg">
+        </div>
     
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject of message..">
+    <!--PORTFOLIO SENDS YOU TO PORTFOLIOS ON CLICK -->        
+    <div id= "container">
+        <div id="title1">
+            <h1>Portfolios</h1>
+    </div>
+        
+    <div id= "portfolio">
+        <div id= "photography">
+            <a href = "photography.html"><img src="img/photographybanner2.jpg" alt= "photography" class="center"> </a>
+        </div>
+        <div id="painting">
+            <a href ="painting.html"><img src="img/paintingbanner4.jpg" alt="Painting" class="center"/></a>
+         </div>
+    </div>
+    <!-- ABOUT - GRID LAYOUT--> 
+    <div id="title2">
+        <h1>About Me</h1>
+    </div>
+        <div id="about">
+            <div id="profile">
+                <img src="img/profile.jpg" alt="Profile" class="center2">
+            </div>
+            <div id="text">
+                <p>My name is Sarah-Jane Seddon and I am studying at Massey University Wellington. I am studying Design and planning to major in Visual Communications Design. I have always had a passion for creativity and art. This portfolio is to show some of my best works from lens and my level 3 NCEA art board. Throughout my time at college I have taken art, design and painting. I have also taken digital technologies and I love Website design and using HTML, PHP, CSS and script. I am 17 years old and I live in Wellington New Zealand. My other passion instead of art is dance, I have been dancing since the age of 4. I enjoy contemporary, ballet, jazz and hiphop. My favourite food would most defiently be Pizza because you can choose what toppings to have on the Pizza. Personally I prefer Peperoni from Pizza Hutt but if I am going gourmey I would choose a Pandamonium Pizza from Hells Pizza. I also have a strong opinion that Pineapple does belong on Pizza. At home I also own a Dog called Roxy. Roxy is a Labradoodle and she is currently 10 years old. I also have two fish, one that doesn't have a name and the other one is called Ginger Ninja. I love all animals but I am defiently a Dog person over a cat person. My favourite colour is pastel pink or mint green. If you couldnt tell from the colour of this website. In the future, I want to use what I am studying at Massey to do Web design and online design. </p>
+            </div>  
+        </div>
+        <div id="title3">
+            <h1>Contact</h1>
+        </div>
+            <div id="contact">
+                
+                <!-- COPY AND PASTED FORM - DOESNT WORK BECAUSE IT ISNT CONNECTED TO PHP -->
+                
+                <div id="form">
+                    <form action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject of message..">
 
 
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-                    <div class="submitcenter"> 
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                        <div class="submitcenter"> 
                         <input type="submit" value="Submit">
-                    </div> 
+                        </div> 
+                        
                     </form>
                 </div>
-   
             </div>
-            
-            
-            
-            
-            
-            <div id="title">
-                <h1>SOCIAL MEDIA </h1>
-            </div>
+        
+        <!-- SOCIAL MEDIA SENDS YOU TO LINK ON CLICK - GRID LAYOUT -->
+        
+        <div id="title4">
+             <h1>SOCIAL MEDIA </h1>
+         </div>
             <div id="social">
                 <div id="logo">
                     <a href="https://www.facebook.com/sarahjane.seddon" target="_blank"><img src="social/facebook2.jpg"class="center"></a>
@@ -110,13 +106,13 @@
                     <a href="https://www.tiktok.com/@sarah.seddon?lang=en" target="_blank"><img src="social/tiktok2.jpg" class="center"></a>
                 </div>
             </div>
-            
+        <!-- FOOTER AT BOTTOM OF PAGE --> 
         <footer>
-            <p>AUTHOR: Sarah-Jane Seddon</p>
+            <p>AUTHOR: Sarah-Jane Seddon &copy;</p>
             <hr>
             <a href="mailto:sarahjaneseddon@gmail.com"> sarahjaneseddon@gmail.com</a>
-         </footer>
-
+        </footer>
+    </div>
 </body>
     
 </html>
